@@ -12,6 +12,13 @@ if now you want to add every possible number you have to add the option -c
 python combo.py -s steeve -c 100 -o out.txt 
 ```
 Will generate every combination of steeve + every combination of number. You will see something like steeve steeve0 steeve00 StEevE099...
+
+You can generate with severeal base if you split your string with comas like that 
+```python
+python combo.py -s steeve,jason,jenna -c 100 -o out.txt 
+```
+will generate every combination for steeve, after jason and then jenna.
+
 Every possible combination will be generated for your wordlist.
 
 Enjoy for your ctf.
